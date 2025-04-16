@@ -42,7 +42,8 @@ fingerprintAlgorithm = "sha256"
   showAuthor = true
   showBreadcrumbs = false
   showDraftLabel = true
-  showEdit = false
+  showEdit = true #是否显示编辑文章内容的链接。
+
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
   showHeadingAnchors = true
@@ -58,7 +59,7 @@ fingerprintAlgorithm = "sha256"
 [list]
   showBreadcrumbs = false
   showSummary = false
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   groupByYear = true
   paginationWidth = 1
