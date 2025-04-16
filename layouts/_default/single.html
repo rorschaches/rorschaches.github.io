@@ -64,10 +64,3 @@
     </footer>
   </article>
 {{ end }}
-
-
-{{ if (findRE "div class=.?fancybox.?" .Content 1)  }}
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-{{ end }}
