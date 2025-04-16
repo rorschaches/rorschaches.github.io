@@ -1,4 +1,14 @@
-### hello
+---
+title: "Aion"
+date: 
+draft: false
+description: "Learnally."
+summary: "Cong CSS."
+slug: "advancion"
+tags: ["aed", "ds"]
+---
+
+## hello
 
 {{< lead >}}
 A powerful, lightweight theme for Hugo built with Tailwind CSS.
