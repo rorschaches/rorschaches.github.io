@@ -43,8 +43,8 @@ fingerprintAlgorithm = "sha256"
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = true #是否显示编辑文章内容的链接。
-
-  # editURL = "https://github.com/username/repo/"
+  
+  editURL = "https://github.com/rorschaches/rorschaches.github.io/tree/main/content/"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true

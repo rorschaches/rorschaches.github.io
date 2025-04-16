@@ -22,6 +22,16 @@
   weight = 20
 
 [[main]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 20
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
+
+[[main]]
   name = "GitHub"
   url = "https://github.com/rorschaches"
   weight = 30
@@ -37,31 +47,23 @@
     action = "search"
     icon = "search"
 
-[[footer]]
-  name = "Privacy"
-  pageRef = "privacy"
 
-[[main]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
+# [[footer]]
+#   name = "Privacy"
+#   pageRef = "privacy"
 
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
 
-[[main]]
-  identifier = "locale"
-  weight = 100
-  [main.params]
-    action = "locale"
+# [[main]]
+#   identifier = "locale"
+#   weight = 100
+#   [main.params]
+#     action = "locale"
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-[[footer]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 10
+# [[footer]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 10
