@@ -1,6 +1,6 @@
 ---
 title: "Aion"
-date: 
+date: 2022-08-08
 draft: false
 description: "Learnally."
 summary: "Cong CSS."

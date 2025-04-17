@@ -183,7 +183,7 @@ pnpm dev
 本地调试编辑完之后将项目push到github仓库。
 ## 使用 Github 部署
 在建立仓库的settings页面选择page，将`Build and deployment` 下的 `source` 改成 `github actions`
-![](attachments/fig2.png)
+![1](attachments/fig2.png)
 这时下方应该会出现action的类型，选择hugo的workflow，添加yml文件。
 然后点击`action`设置你的action，可以不设置，选择默认。
 在最顶端导航栏的`action`菜单中即可看到你的个人主页部署列表。
@@ -193,7 +193,7 @@ https://vercel.com
 使用github账号登陆
 - 点击New Project，选择你的代码仓库（支持GitHub、GitLab、本地文件或新建模板）。
 - 选择仓库中的项目目录进行部署。
-![](attachments/fig1.png)
+![2](attachments/fig1.png)
 
 
 
