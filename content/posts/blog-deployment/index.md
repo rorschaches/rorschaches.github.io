@@ -187,7 +187,8 @@ pnpm dev
 ## 使用 Github 部署
 在建立仓库的settings页面选择page，将`Build and deployment` 下的 `source` 改成 `github actions`
 
-![Screenshot](fig2.jpg)
+{{< figure src="fig2.jpg" >}}
+
 
 这时下方应该会出现action的类型，选择hugo的workflow，添加yml文件。
 然后点击`action`设置你的action，可以不设置，选择默认。
@@ -199,9 +200,7 @@ https://vercel.com
 - 点击New Project，选择你的代码仓库（支持GitHub、GitLab、本地文件或新建模板）。
 - 选择仓库中的项目目录进行部署。
   
-![Screenshot](fig1.jpg)
-
-
+{{< figure src="fig1.jpg" class="m-auto mt-6 max-w-prose" >}}
 
 
 
