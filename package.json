@@ -4,12 +4,12 @@
   "description": "Congo theme for Hugo",
   "scripts": {
     "server": "hugo server -b http://localhost -p 8000",
-    "dev": "NODE_ENV=development ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
-    "build": "NODE_ENV=production ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit",
+    "dev": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+    "build": "NODE_ENV=production ./node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit",
     "preinstall": "rimraf assets/lib",
     "postinstall": "vendor-copy",
     "assets": "rimraf assets/lib && vendor-copy",
-    "example": "hugo server --bind 0.0.0.0 -p 8008 --source exampleSite --themesDir ../.. --buildDrafts -b http://localhost/congo/ ",
+    "example": "hugo server --bind 0.0.0.0 -p 8008 --source ./themes/congo/exampleSite --themesDir ../.. --buildDrafts -b http://localhost/congo/ ",
     "lighthouse": "lhci autorun",
     "add-icon": "node scripts/index.js add-icon"
   },
