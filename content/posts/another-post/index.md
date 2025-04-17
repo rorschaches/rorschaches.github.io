@@ -21,7 +21,6 @@ Congo主题支持在文章列表和单独的文章页面顶部显示图像。有
 在下面的示例中，为first-post文章提供了封面和缩略图图像：
 
 
-
 <script src="https://giscus.app/client.js"
         data-repo="rorschaches/rorschaches.github.io"
         data-repo-id="R_kgDOOagVyA"
