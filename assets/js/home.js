@@ -19,6 +19,16 @@ function switchHomeLayout() {
 }
 
 window.addEventListener("DOMContentLoaded", (event) => {
+  // 设置初始状态
+  const pageDiv = document.getElementById("page");
+  const profileDiv = document.getElementById("profile");
+  pageDiv.style.display = "none";
+  profileDiv.style.display = "block";
+  
+  document.querySelectorAll("code[id=layout]").forEach(function (el) {
+    el.innerText = "profile";
+  });
+
   document.querySelectorAll("#switch-layout-button").forEach((button) =>
     button.addEventListener("click", function (e) {
       e.preventDefault();
