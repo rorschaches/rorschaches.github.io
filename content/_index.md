@@ -7,7 +7,6 @@ description: "This is a Blog website of Rorschaches."
 An IT skateboard slider, Nice to meet you.
 {{< /lead >}}
 
-----
 This is a website built entirely using Congo. 
 You can see all posts in the set of [Blog]({{< ref "posts" >}}) and my projects in in the set of [Projects]({{< ref "projects" >}}). Also, you can search any post by tags in the set of [Tags]({{< ref "tags" >}}).
 
