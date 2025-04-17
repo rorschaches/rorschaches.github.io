@@ -4,7 +4,7 @@ description: "This is a Blog website of Rorschaches."
 ---
 
 {{< lead >}}
-A IT skateboard slider, Nice to meet you.
+An IT skateboard slider, Nice to meet you.
 {{< /lead >}}
 
 ----
