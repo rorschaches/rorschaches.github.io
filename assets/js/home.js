@@ -2,15 +2,16 @@ function switchHomeLayout() {
   const pageDiv = document.getElementById("page");
   const profileDiv = document.getElementById("profile");
   const layoutCode = document.querySelectorAll("code[id=layout]");
-  if (pageDiv.style.display === "none") {
-    pageDiv.style.display = "block";
-    profileDiv.style.display = "none";
+
+  if (profileDiv.style.display === "none") {
+    pageDiv.style.display = "none";
+    profileDiv.style.display = "block";
     layoutCode.forEach(function (el) {
       el.innerText = "profile";
     });
   } else {
-    pageDiv.style.display = "none";
-    profileDiv.style.display = "block";
+    pageDiv.style.display = "block";
+    profileDiv.style.display = "none";
     layoutCode.forEach(function (el) {
       el.innerText = "page";
     });
