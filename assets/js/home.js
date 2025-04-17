@@ -6,13 +6,13 @@ function switchHomeLayout() {
     pageDiv.style.display = "block";
     profileDiv.style.display = "none";
     layoutCode.forEach(function (el) {
-      el.innerText = "page";
+      el.innerText = "profile";
     });
   } else {
     pageDiv.style.display = "none";
     profileDiv.style.display = "block";
     layoutCode.forEach(function (el) {
-      el.innerText = "profile";
+      el.innerText = "page";
     });
   }
 }
