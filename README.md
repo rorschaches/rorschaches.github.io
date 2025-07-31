@@ -1,2 +1,2 @@
 # rorschaches.github.io
-public
+https://rorschaches.github.io/
